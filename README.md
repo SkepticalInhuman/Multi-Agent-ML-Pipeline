@@ -89,8 +89,8 @@ predictions = model.predict(X_new)
 ## Stack
 
 - [LangGraph](https://github.com/langchain-ai/langgraph) — agent orchestration
-- [Groq](https://groq.com) — LLM inference (`openai/gpt-oss-120b`)
-- [Gemini](https://aistudio.google.com/welcome) - LLM inference(`gemini-3.5-flash-lite`)
+- [Groq](https://groq.com) — LLM inference (`openai/gpt-oss-120b`,`qwen/qwen3.6-27b`,`openai/gpt-oss-20b`)
+- [Gemini](https://aistudio.google.com/welcome) - LLM inference(`gemini-3.1-flash-lite`)
 - [Optuna](https://optuna.org) — hyperparameter optimisation
 - [LightGBM](https://lightgbm.readthedocs.io) — gradient boosting
 - [scikit-learn](https://scikit-learn.org) — ML utilities and models
