@@ -24,8 +24,8 @@ CSV Upload → EDA Agent → Feature Engineering Agent → Column Selection → 
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/SkepticalInhuman/Multi-Agent-ML-Pipeline
+cd Multi-Agent-ML-Pipeline
 ```
 
 **2. Install dependencies**
