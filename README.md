@@ -39,6 +39,7 @@ uv sync
 Create a `.env` file in the root directory:
 ```
 GROQ_API_KEY=your_key_here
+GOOGLE_API_KEY=your_key_here
 ```
 
 **4. Run the app**
@@ -50,7 +51,7 @@ uv run streamlit run app.py
 
 1. Upload a cleaned CSV file using the sidebar
 2. Click **Start Pipeline**
-3. Chat with the EDA agent — ask questions about your data or type *"continue"* to move on
+3. Chat with the EDA agent — ask questions about your data or type *"continue to feature engineering"* to move on
 4. The feature engineering agent will clean your data automatically
 5. Select your target and feature columns when prompted
 6. Watch the three models train and tune in the terminal
@@ -89,6 +90,7 @@ predictions = model.predict(X_new)
 
 - [LangGraph](https://github.com/langchain-ai/langgraph) — agent orchestration
 - [Groq](https://groq.com) — LLM inference (`openai/gpt-oss-120b`)
+- [Gemini](https://aistudio.google.com/welcome) - LLM inference(`gemini-3.5-flash-lite`)
 - [Optuna](https://optuna.org) — hyperparameter optimisation
 - [LightGBM](https://lightgbm.readthedocs.io) — gradient boosting
 - [scikit-learn](https://scikit-learn.org) — ML utilities and models
