@@ -59,7 +59,7 @@ uv run streamlit run app.py
 
 ## Configuration
 
-You can adjust these values at the top of `ml_modeller_critic_langgraph.py`:
+You can adjust these values at the top of `model_critic.py`:
 
 | Variable | Default | Description |
 |---|---|---|
